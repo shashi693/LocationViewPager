@@ -7,8 +7,8 @@ android {
         applicationId "com.avenueinfotech.locationviewpager"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 4
-        versionName "1.3"
+        versionCode 5
+        versionName "1.4"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -31,5 +31,6 @@ dependencies {
     compile 'com.google.android.gms:play-services-plus:10.2.0'
     compile 'com.google.android.gms:play-services-maps:10.2.0'
     compile 'com.google.android.gms:play-services-location:10.2.0'
+    compile 'com.google.android.gms:play-services-ads:10.2.0'
     testCompile 'junit:junit:4.12'
 }
